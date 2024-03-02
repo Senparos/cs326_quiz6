@@ -2,6 +2,8 @@
 #class: CS 325
 #due: 2024-03-01
 
+#this uses the s principle by having each function be its own class. This makes it much easier to modify the code in the future
+
 class Order_Info:
     def __init__(self, name, email, address, items):
         self.nameVal = name

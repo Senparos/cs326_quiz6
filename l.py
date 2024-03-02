@@ -2,6 +2,8 @@
 #class: CS 325
 #due: 2024-03-01
 
+#this program uses abstract methods to have a base shape class that has an abstract get_area method. This method is then implented in each subclass
+
 from abc import ABC, abstractmethod
 
 class Shape(ABC):

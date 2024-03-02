@@ -2,6 +2,7 @@
 #class: CS 325
 #due: 2024-03-01
 
+#this program has each function put into its own class, where different sets of users can be created with different permissions by using inheritance
 
 class Catalog_System:
     def __init__(self, catalog):

@@ -2,6 +2,8 @@
 #class: CS 325
 #due: 2024-03-01
 
+#this program uses an abstract shape class that every shape subclass can inherit from , so developers are able to add new shapes without modifying the square class, and can add new functionality to the square class without changing the existing functions
+
 from abc import ABC, abstractmethod
 
 class Shape(ABC):
